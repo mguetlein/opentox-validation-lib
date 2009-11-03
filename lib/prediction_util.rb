@@ -61,6 +61,9 @@ module OpenTox
         return @actual_values[instance_index]
       end
       
+      def confidence_value(instance_index)
+        return @confidence_values[instance_index]
+      end      
       def compound(instance_index)
         return @compounds[instance_index]
       end
